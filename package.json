@@ -12,7 +12,11 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroui/react": "^2.8.10",
+    "axios": "^1.17.0",
+    "framer-motion": "^12.40.0",
     "hono": "^4.12.23",
+    "lucide-react": "^1.18.0",
     "next": "16.2.7",
     "next-start": "link:",
     "pino": "^10.3.1",
@@ -35,6 +39,7 @@
     "lint-staged": "^17.0.7",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.8.0",
+    "prisma": "^7.8.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
