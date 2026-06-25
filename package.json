@@ -2,6 +2,7 @@
   "name": "next-start",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,7 +14,10 @@
   },
   "dependencies": {
     "@heroui/react": "^2.8.10",
+    "@prisma/adapter-mariadb": "^7.8.0",
+    "@prisma/client": "^7.8.0",
     "axios": "^1.17.0",
+    "dotenv": "^17.4.2",
     "framer-motion": "^12.40.0",
     "hono": "^4.12.23",
     "lucide-react": "^1.18.0",

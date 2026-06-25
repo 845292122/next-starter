@@ -18,9 +18,10 @@ import Profile from '@/client/components/Profile'
 
 // * 导航菜单项配置
 const menuItems = [
-  { name: '首页', icon: <Home size={18} />, href: '/home' },
-  { name: '数据', icon: <BarChart3 size={18} />, href: '/calendar' },
-  { name: '成员', icon: <Users size={18} />, href: '/patient' },
+  { name: '仪表板', icon: <BarChart3 size={18} />, href: '/dashboard' },
+  { name: '产品分析', icon: <Home size={18} />, href: '/products' },
+  { name: '会员分析', icon: <Users size={18} />, href: '/members' },
+  { name: '经营分析', icon: <BarChart3 size={18} />, href: '/operations' },
   { name: 'demo', icon: <Settings size={18} />, href: '/demo' }
 ]
 
