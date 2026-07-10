@@ -3,6 +3,18 @@
 import 'dotenv/config'
 import { defineConfig } from 'prisma/config'
 
+// dev环境 修改model
+// npx prisma migrate dev --name 描述这次改动
+
+// 只刷新类型
+// prisma generate
+
+// 当迁移太乱、想推倒重来（仅限开发）
+// npx prisma migrate reset
+
+// 可视化工具
+// npx prisma studio
+
 export default defineConfig({
   schema: 'prisma/schema.prisma',
   migrations: {
