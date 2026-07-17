@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Checkbox, Divider, Form, Input, Link, Tab, Tabs } from '@heroui/react'
+import { Button, Divider, Form, Input, Link, Tab, Tabs } from '@heroui/react'
 import { Eye, EyeClosed, Lock, Smartphone } from 'lucide-react'
 import React from 'react'
 import AcmeLogo from '@/client/components/Logo'
